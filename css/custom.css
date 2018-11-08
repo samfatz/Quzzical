@@ -1,0 +1,114 @@
+@import "bootstrap.css";
+@import "bootstrap-grid.css";
+@import "bootstrap-reboot.css";
+
+html {
+}
+body {
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.site-title{
+    font-size: 4em;
+    font-weight: 200;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f34c64;
+}
+.nav-link{
+    color: #f34c64;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.nav-link:hover{
+    color: #000000;
+}
+
+.btn-default:hover{
+    color: #fff;
+    background-color: #f34c64;
+}
+
+.quiz-title{
+    padding-top: 3%;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+#dropdown{
+    padding-right: 80%;
+}
+
+.questions{
+    font-size: 2em;
+    font-weight: 100;
+    color: #f34c64;
+}
+
+.account-details {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.search {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.edit {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.quiz-prev{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.start-quiz-buttons {
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.quiz-divider{
+    width: 400px;
+    color: #f34c64;
+}
+
+#myFooter{
+    padding-top:250px;
+}
+
+#myFooter .container{
+    text-align: center;
+}
+
+#myFooter .footer-copyright{
+    text-align: center;
+}
+
+#myFooter ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#myFooter a{
+    color: #282b2d;
+    font-size: 15px;
+}
+
+#myFooter li{
+    display: inline-block;
+    line-height: 2;
+}
+
+#myFooter .footer-social{
+    text-align: center;
+}
